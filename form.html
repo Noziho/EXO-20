@@ -3,12 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>Nous contacter</title>
+    <link rel="stylesheet" href="/assets/css/styleF.css">
 </head>
 
-<body>
-    <h1>Nous contacter</h1>
-    <div>
-        <form action="" method="get">
+<body id="bodyForm">
+    <h1 id="titreForm">Nous contacter</h1>
+
+    <div id="formDiv">
+        <form action="mailto:noah.decroix3@gmail.com" method="post">
             <div>
                 <label for="FamilyName" id="Fname">Votre Nom:</label>
                 <input type="text" id="FamilyName" name="user_fname">
@@ -25,12 +27,12 @@
             </div>
 
             <div>
-                <label for="textzone" id="zonetext">Tapez votre commentaire</label>
+                <label for="textzone" id="zoneText">Tapez votre commentaire</label>
                 <textarea id="textzone" name="user_message"></textarea>
             </div>
 
             <div>
-                <button type="submit" name=user_submit"><a href="mailto:noah.decroix3@gmail.com">Envoyer</a></button>
+                <button type="submit" name=user_submit">Envoyez</button>
             </div>
 
         </form>

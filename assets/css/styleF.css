@@ -1,0 +1,121 @@
+body {
+    background-color: darkgray;
+
+ }
+
+.divGeneral {
+    background-color: white;
+    background-position: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 1%;
+    box-shadow: -30px 30px 20px RGBa(0,0,0,0.3);
+    padding: 5px;
+    font-family: monospace, SansSerif;
+ }
+
+h1 {
+    text-align: center;
+ }
+
+#titreIndex {
+    font-style:oblique ;
+ }
+
+ul {
+    list-style-type: none;
+ }
+
+ol {
+    list-style-type: none;
+ }
+
+li {
+    color: black;
+    padding: 3px;
+}
+
+table {
+    border-style: dashed;
+    border-color: black;
+    width: 150px;
+    height: 20px;
+    text-align: left;
+
+ }
+
+tr {
+    border-color: black;
+    border-style: dashed;
+ }
+
+#titreL {
+    text-decoration:underline;
+ }
+
+h2 {
+    font-size: 17px;
+    color: #f67030;
+ }
+
+.Etapes {
+    margin-bottom: 30px;
+ }
+
+#titreP {
+    font-style: italic;
+    text-decoration: underline;
+    text-decoration-color: #f67030;
+ }
+
+.imageP {
+    float: right;
+ }
+ #tableB {
+     width: 600px;
+     height: 300px;
+ }
+ .ulB {
+     color: #f67030;
+     font-style: oblique;
+ }
+
+ #imgB {
+     float: right;
+ }
+
+ .titreBM{
+     font-style: oblique;
+     text-decoration: underline;
+     text-decoration-color: #f67030;
+ }
+
+ #imgM {
+     float: right;
+ }
+
+ #bodyForm {
+     background-color: darkgray;
+ }
+
+ #formDiv {
+     background-color: white;
+     background-position: left;
+     border-radius: 1%;
+     box-shadow: -30px 30px 20px RGBa(0,0,0,0.3);
+     padding: 5px;
+     font-family: monospace, SansSerif;
+     width: 600px;
+ }
+
+ #titreForm {
+     text-align: left;
+     text-decoration: underline;
+ }
+textarea{
+    padding: 10px;
+    resize: none;
+    width: 300px;
+    height: 20px;
+    align-content: baseline;
+}
